@@ -1,4 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
 body {
   padding: 0;
   margin: 0;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#buttons {
+  margin: 1%;
+}
+
+.rows {
+  margin-top: 2%;
+}
+
+.button {
+  width: 3rem;
+  height: 3rem;
+}
+
+#input {
+  width: 19em;
+  height: 1.5rem;
 }
