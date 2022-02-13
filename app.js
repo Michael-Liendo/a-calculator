@@ -1,3 +1,5 @@
+let input = document.querySelector("#input");
+
 let seven = document.querySelector(".seven");
 let eight = document.querySelector(".eight");
 let nine = document.querySelector(".eight");
@@ -18,6 +20,8 @@ let point = document.querySelector(".point");
 let AC = document.querySelector(".AC");
 let division = document.querySelector(".division");
 
-function handlerFunction(number) {
-  console.log(number);
+function handlerFunction(button) {
+  console.log(button);
+
+  input.value = input.value + button;
 }
