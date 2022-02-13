@@ -26,6 +26,11 @@ body {
   height: 3.8rem;
 }
 
+.equal {
+  width: 16rem;
+  height: 3.8rem;
+}
+
 #input {
   width: 19em;
   height: 1.5rem;
