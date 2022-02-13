@@ -15,28 +15,30 @@
       </div>
       <div id="buttons">
         <div id="first-row" class="rows">
-          <button class="button 7">7</button>
-          <button class="button 8">8</button>
-          <button class="button 9">9</button>
-          <button class="button +">+</button>
+          <button onclick="handlerFunction(7)" class="button seven">7</button>
+          <button onclick="handlerFunction(8)" class="button eight">8</button>
+          <button onclick="handlerFunction(9)" class="button nine">9</button>
+          <button onclick="handlerFunction('+')" class="button plus">+</button>
         </div>
         <div id="second-row" class="rows">
-          <button class="button 4">4</button>
-          <button class="button 5">5</button>
-          <button class="button 6">6</button>
-          <button class="button -">-</button>
+          <button onclick="handlerFunction(4)" class="button four">4</button>
+          <button onclick="handlerFunction(5)" class="button five">5</button>
+          <button onclick="handlerFunction(6)" class="button six">6</button>
+          <button onclick="handlerFunction('-')" class="button less">-</button>
         </div>
         <div id="third-row" class="rows">
-          <button class="button 1">1</button>
-          <button class="button 2">2</button>
-          <button class="button 3">3</button>
-          <button class="button x">x</button>
+          <button onclick="handlerFunction(1)" class="button one">1</button>
+          <button onclick="handlerFunction(2)" class="button two">2</button>
+          <button onclick="handlerFunction(3)" class="button three">3</button>
+          <button onclick="handlerFunction('x')" class="button x">x</button>
         </div>
         <div id="fourth-row" class="rows">
-          <button class="button 0">0</button>
-          <button class="button .">.</button>
-          <button class="button AC">AC</button>
-          <button class="button /">/</button>
+          <button onclick="handlerFunction(0)" class="button zero">0</button>
+          <button onclick="handlerFunction('.')" class="button point">.</button>
+          <button onclick="handlerFunction('AC')" class="button AC">AC</button>
+          <button onclick="handlerFunction('/')" class="button division">
+            /
+          </button>
         </div>
       </div>
     </div>
