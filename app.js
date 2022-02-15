@@ -21,9 +21,17 @@ let AC = document.querySelector(".AC");
 let division = document.querySelector(".division");
 
 function handlerFunction(button) {
-  input.value = input.value + button;
-
   if (button === "AC") {
     input.value = "";
+    return;
   }
+
+  if (button === "=") {
+    input.value = eval(input.value);
+    console.log(eval(input.value));
+    if (input.value.endsWith("=")) {
+      return;
+    }
+  }
+  input.value += button;
 }
